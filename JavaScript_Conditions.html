@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if</h2>
+
+<p>Display "good day!"if the hour is less than 18:00:</p>
+
+<p id="demo">good evening</p>
+
+<script>
+if (new Date().getHours()<18){
+  document.getElementById("demo").innerHTML="good day";
+  }
+</script>
+
+<p id="hello">good evening</p>
+
+<script>
+if (new Date().getHours() >10){
+   document.getElementById("hello").innerHTML="Good day";
+   }
+</script>
+
+<h2>The else Statement</h2>
+
+<p>use the else statement to specify a block of code to be executed if the condition is false.</p>
+
+<p>If the hour is less than 18,create a good day greeting otherwise good evening</p>
+   
+<p>A Time based greeting</p>
+   
+<p id="how"></p>   
+   
+<script>
+hour = new Date().getHours(); 
+let greeting;
+
+if (hour > 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+document.getElementById("how").innerHTML = greeting;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
